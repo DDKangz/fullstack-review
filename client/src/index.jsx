@@ -37,9 +37,11 @@ class App extends React.Component {
         });
       },
       error: (err) => {
-        console.log ('Faild POST request!');
+        console.log ('Faild POST request!')
+      }
     })
   }
+
 
   render () {
     return (<div>
